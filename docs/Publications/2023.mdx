@@ -1,0 +1,22 @@
+---
+sidebar_position: -2023
+---
+
+import Publications from "@site/src/config/publications";
+
+# 2023
+
+Corresponding authors are marked with \*.
+
+<>
+  {Publications["2023"].map((pub) => (
+    <Publication
+      image={pub.image}
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+</>

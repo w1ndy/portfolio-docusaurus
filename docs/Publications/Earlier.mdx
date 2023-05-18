@@ -1,0 +1,22 @@
+---
+sidebar_position: 0
+---
+
+import Publications from "@site/src/config/publications";
+
+# Earlier
+
+Corresponding authors are marked with \*.
+
+<>
+  {Publications["earlier"].map((pub) => (
+    <Publication
+      image={pub.image}
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+</>
