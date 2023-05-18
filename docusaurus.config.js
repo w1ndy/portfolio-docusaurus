@@ -43,6 +43,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
