@@ -1,4 +1,5 @@
 import React from "react";
+import Translate, { translate } from "@docusaurus/Translate";
 
 export default function Publication({
   image,
@@ -35,7 +36,7 @@ export default function Publication({
               href={`https://doi.org/${doi}`}
               target="_blank"
             >
-              Access via Publisher
+              <Translate>Access via Publisher</Translate>
             </a>
           </div>
         </div>
@@ -45,7 +46,9 @@ export default function Publication({
           className="mt-4 mb-6 ml-2 pl-4"
           style={{ borderLeft: "3px solid var(--ifm-link-color)" }}
         >
-          <span className="font-bold">Abstract: </span>
+          <span className="font-bold">
+            <Translate>Abstract: </Translate>
+          </span>
           {abstract}
         </div>
       )}

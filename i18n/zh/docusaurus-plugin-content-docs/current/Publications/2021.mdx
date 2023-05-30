@@ -1,0 +1,22 @@
+---
+sidebar_position: -2021
+---
+
+import Publications from "@site/src/config/publications";
+
+# 2021
+
+通讯作者以\*号标注。
+
+<>
+  {Publications["2021"].map((pub) => (
+    <Publication
+      image={pub.image}
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+</>

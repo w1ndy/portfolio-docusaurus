@@ -1,0 +1,54 @@
+---
+sidebar_position: 1
+slug: /
+---
+
+import Publications from "@site/src/config/publications.zh.js";
+
+# 简介
+
+<img
+  style={{
+    float: "left",
+    borderRadius: "10px",
+    marginRight: "20px",
+  }}
+  src={require("@site/static/img/me.jpg").default}
+  width="150"
+/>
+
+👋 你好！我是翁荻，目前就职于[浙江大学软件学院](http://www.cst.zju.edu.cn)，担任百人计划研究员。
+我的研究兴趣主要集中在信息可视化和可视分析领域，专注于交互式数据转换和时空数据可视分析。
+我在包括 IEEE VIS、ACM CHI、IEEE TVCG、IEEE ITS 等知名计算机科学会议和期刊上发表了[超过 15 篇论文](./Publications)。
+我还曾担任 IEEE VIS 2023、ChinaVis 2022 和 2023、CGI 2023 等会议的程序委员会成员，并为诸多学术期刊和会议审稿。
+我于 2016 年在山东大学获得计算机学士学位，并于 2021 年在浙江大学获得计算机博士学位。
+在担任现职之前，我曾于 2022 年至 2023 年在微软亚洲研究院任研究员。
+有关我的经历的更多信息，请参阅[个人经历页面](./experience)。
+
+🔥 欢迎对可视化感兴趣的学生加入我的研究小组！请[发邮件](mailto:dweng@zju.edu.cn)与我交流。
+
+## 新闻
+
+- **2023 年 4 月 23 日：** 我们的一篇题为“[GeoCamera: Telling Stories in Geographic Visualizations with Camera Movements](https://dl.acm.org/doi/10.1145/3544548.3581470)”的论文将会在即将开始的[ACM CHI 2023](https://chi2023.acm.org/)大会上报告。
+- **2023 年 3 月 6 日：** 我作为百人计划研究员加入了[浙江大学软件学院](http://www.cst.zju.edu.cn/cstenglish/main.htm)。
+
+## 近期论文
+
+<>
+  {Publications["selected"].map((pub) => (
+    <Publication
+      image={pub.image}
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+      abstract={pub.abstract}
+    />
+  ))}
+</>
+
+## 联系方式
+
+- **办公室：** 浙江省宁波市江南路 1689 号浙江大学软件学院教学楼 E502
+- **邮箱：** dweng@zju.edu.cn

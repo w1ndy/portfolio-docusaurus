@@ -1,0 +1,53 @@
+import Publications from "@site/src/config/publications";
+
+# 论文发表
+
+### 按年份索引（带缩略图）
+
+- [2023](./Publications/2023)
+- [2022](./Publications/2022)
+- [2021](./Publications/2021)
+- [更早](./Publications/Earlier)
+
+### 论文列表
+
+通讯作者以\*号标注。
+
+<ul>
+  {Publications["2023"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+  {Publications["2022"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+  {Publications["2021"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+  {Publications["earlier"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+</ul>

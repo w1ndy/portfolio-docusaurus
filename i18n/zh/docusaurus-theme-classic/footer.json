@@ -1,0 +1,58 @@
+{
+  "link.title.Portfolio": {
+    "message": "关于我",
+    "description": "The title of the footer links column with title=Portfolio in the footer"
+  },
+  "link.title.Contact": {
+    "message": "联系方式",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.title.More": {
+    "message": "更多",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "简介",
+    "description": "The label of footer link with label=Introduction linking to /"
+  },
+  "link.item.label.Experience": {
+    "message": "个人经历",
+    "description": "The label of footer link with label=Experience linking to /experience"
+  },
+  "link.item.label.Publications": {
+    "message": "论文发表",
+    "description": "The label of footer link with label=Publications linking to /publications/2023"
+  },
+  "link.item.label.Office": {
+    "message": "办公室",
+    "description": "The label of footer link with label=Office linking to https://google.com/maps/?q=E502,%20Ningbo%20branch,%20College%20of%20Software%20Technology,%20Zhejiang%20University,%20Ningbo,%20Zhejiang,%20China"
+  },
+  "link.item.label.Email": {
+    "message": "邮件",
+    "description": "The label of footer link with label=Email linking to mailto:dweng@zju.edu.cn"
+  },
+  "link.item.label.Google Scholar": {
+    "message": "谷歌学术",
+    "description": "The label of footer link with label=Google Scholar linking to https://scholar.google.com/citations?user=Yi1KUZcAAAAJ&hl=en"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/w1ndy"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/dw_vis"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://social.dwe.ng/@dw_vis"
+  },
+  "link.item.label.Unsplash": {
+    "message": "Unsplash",
+    "description": "The label of footer link with label=Unsplash linking to https://unsplash.com/@skies457"
+  },
+  "copyright": {
+    "message": "由Docusaurus构建，并由GitHub Pages驱动。",
+    "description": "The footer copyright"
+  }
+}

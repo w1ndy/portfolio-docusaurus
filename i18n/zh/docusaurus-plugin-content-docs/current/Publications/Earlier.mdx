@@ -1,0 +1,22 @@
+---
+sidebar_position: 0
+---
+
+import Publications from "@site/src/config/publications";
+
+# 更早
+
+通讯作者以\*号标注。
+
+<>
+  {Publications["earlier"].map((pub) => (
+    <Publication
+      image={pub.image}
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+</>

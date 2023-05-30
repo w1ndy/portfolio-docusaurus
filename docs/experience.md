@@ -32,12 +32,9 @@ sidebar_position: 2
 | Date | Award                                                |
 | ---- | ---------------------------------------------------- |
 | 2020 | National Scholarship                                 |
-|      | He Zhijun Scholarship - Special Award                |
 | 2019 | National Scholarship                                 |
-|      | China Scholarship Council Ph.D. Scholarship          |
 |      | Luzengyong CAD&CG High Technology Award, Third Prize |
-| 2018 | Wenchixiang Ph.D. Scholarship                        |
-|      | MSRA Fellowship Nomination Award                     |
+| 2018 | MSRA Fellowship Nomination Award                     |
 
 ## Services
 

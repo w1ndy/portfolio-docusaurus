@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "翁荻",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Portfolio": {
+    "message": "关于我",
+    "description": "Navbar item with label Portfolio"
+  }
+}
