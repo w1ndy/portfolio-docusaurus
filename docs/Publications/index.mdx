@@ -1,0 +1,53 @@
+import Publications from "@site/src/config/publications";
+
+# Publications
+
+### By year (with teaser images)
+
+- [2023](/Publications/2023)
+- [2022](/Publications/2022)
+- [2021](/Publications/2021)
+- [Earlier](/Publications/Earlier)
+
+### Plain-text paper list
+
+Corresponding authors are marked with \*.
+
+<ul>
+  {Publications["2023"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+  {Publications["2022"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+  {Publications["2021"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+  {Publications["earlier"].map((pub) => (
+    <SimplePublication
+      authors={pub.authors}
+      title={pub.title}
+      venue={pub.venue}
+      doi={pub.doi}
+      key={pub.doi}
+    />
+  ))}
+</ul>
